@@ -1,4 +1,4 @@
-package org.ritesh.interview;
+package org.ritesh.interview.oddeven;
 
 import static java.lang.System.out;
 
