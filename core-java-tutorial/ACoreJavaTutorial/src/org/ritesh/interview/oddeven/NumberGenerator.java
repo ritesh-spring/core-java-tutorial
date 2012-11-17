@@ -1,4 +1,5 @@
-package org.ritesh.interview;
+package org.ritesh.interview.oddeven;
+
 
 public class NumberGenerator extends Thread {
 	 
