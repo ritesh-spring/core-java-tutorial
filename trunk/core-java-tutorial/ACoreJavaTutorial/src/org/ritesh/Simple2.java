@@ -2,7 +2,7 @@ package org.ritesh;
 
 public class Simple2 {
 	void m() {
-		int data = 50 / 0;
+//		int data = 50 / 0;
 	}
 
 	void n() {
