@@ -5,7 +5,7 @@ public class Simple
 {
 	void m()
 	{
-	int data=40/0;	
+//	int data=40/0;	
 	}
 	void n()
 	{
