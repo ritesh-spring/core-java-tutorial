@@ -10,7 +10,7 @@ public class LinkedListEx001 {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		LinkedList<String> linkedList = new LinkedList<>();
+		LinkedList<String> linkedList = new LinkedList<String>();
 		linkedList.add("Ritesh Kumar");
 		linkedList.add("Amit Kumar");
 		linkedList.add("Sumit Kumar");

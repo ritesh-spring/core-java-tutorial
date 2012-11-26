@@ -11,7 +11,7 @@ public class LinkedHashSetEx001 {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		HashSet<String> set = new LinkedHashSet<>();
+		HashSet<String> set = new LinkedHashSet<String>();
 		set.add("Apple");
 		set.add("Ball");
 		set.add("Cat");

@@ -1,6 +1,8 @@
 package org.ritesh;
 
+//import java.net.PasswordAuthentication;
 import java.util.Properties;
+
 import javax.mail.*;
 import javax.mail.internet.*;
 
@@ -15,23 +17,23 @@ public class SendMailSSL {
 				"javax.net.ssl.SSLSocketFactory");
 		props.put("mail.smtp.auth", "true");
 		props.put("mail.smtp.port", "465");
-		Session session = Session.getDefaultInstance(props,
-				new javax.mail.Authenticator() {
-					protected PasswordAuthentication getPasswordAuthentication() {
-						return new PasswordAuthentication(
-								"project.ejb@gmail.com", "ritesh134");// change
+		Session session = Session.getDefaultInstance(props,new javax.mail.Authenticator() 
+		{
+					protected PasswordAuthentication getPasswordAuthentication() 
+					{
+						return new PasswordAuthentication("coolsanju1987@gmail.com", "sanjeevrahul");// change
 																		// accordingly
 					}
 				});
 		// compose message
 		try {
 			MimeMessage message = new MimeMessage(session);
-			message.setFrom(new InternetAddress("Ritesh Kumar<project.ejb@gmail.com>"));// change
+			message.setFrom(new InternetAddress("Sanjeev Kumar<project.ejb@gmail.com>"));// change
 																			// accordingly
 			message.addRecipient(Message.RecipientType.TO, new InternetAddress(
 					to));
-			message.setSubject("Hello 6");
-			message.setText("Testing.......Mail");
+			message.setSubject("Hello 60");
+			message.setText("Testing.......What r u doing man???");
 			// send message
 			Transport.send(message);
 			System.out.println("message sent successfully");

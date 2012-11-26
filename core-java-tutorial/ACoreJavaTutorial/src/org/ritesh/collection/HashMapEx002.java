@@ -10,7 +10,7 @@ public class HashMapEx002 {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		HashMap<Integer, String> hm = new HashMap<>();
+		HashMap<Integer, String> hm = new HashMap<Integer,String>();
 		hm.put(5, null);
 		/*
 		 * hm.put(null, "Rakesh"); hm.put(null, "Apple"); hm.put(null, "Amit");

@@ -12,7 +12,7 @@ public class HashTableEx001 {
 	static int i=0;
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Hashtable<Integer, String> ht = new Hashtable<>();
+		Hashtable<Integer, String> ht = new Hashtable<Integer,String>();
 		ht.put(1, "Ritesh");
 		ht.put(2, "Rakesh");
 		ht.put(3, "Apple");
