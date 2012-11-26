@@ -11,7 +11,7 @@ public class CollectionsSortEx001 {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		ArrayList<String> al = new ArrayList<>();
+		ArrayList<String> al = new ArrayList<String>();
 		al.add("Ritesh");
 		al.add("Ramesh");
 		al.add("Apple");
@@ -25,7 +25,7 @@ public class CollectionsSortEx001 {
 			System.out.println(string);
 		}
 		System.out.println("Sorting Wrapper Class Objects....");
-		ArrayList<Integer> al2=new ArrayList<>();
+		ArrayList<Integer> al2=new ArrayList<Integer>();
 		al2.add(Integer.valueOf(10));
 		al2.add(Integer.valueOf(15));
 		al2.add(Integer.valueOf(8));

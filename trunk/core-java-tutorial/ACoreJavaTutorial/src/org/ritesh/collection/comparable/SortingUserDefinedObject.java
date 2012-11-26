@@ -12,7 +12,7 @@ public class SortingUserDefinedObject {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-ArrayList<Student2> al=new ArrayList<>();
+ArrayList<Student2> al=new ArrayList<Student2>();
 al.add(new Student2(1, "Ritesh Kumar", 22));
 al.add(new Student2(2, "Ramesh Kumar", 25));
 al.add(new Student2(13, "Sanjeev Kumar", 20));

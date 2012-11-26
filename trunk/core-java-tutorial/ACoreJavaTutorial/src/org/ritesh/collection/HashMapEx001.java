@@ -13,7 +13,7 @@ public class HashMapEx001 {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-HashMap<String, Integer> hm=new HashMap<>();
+HashMap<String, Integer> hm=new HashMap<String,Integer>();
  hm.put("Ritesh", 10);
  hm.put("Apple", 123);
  hm.put("Ramesh", 300);
@@ -28,7 +28,7 @@ HashMap<String, Integer> hm=new HashMap<>();
 	
 }
  System.out.println("After Sorting....");
-	TreeMap<String, Integer> m1=new TreeMap<>(hm);
+	TreeMap<String, Integer> m1=new TreeMap<String, Integer>(hm);
 	System.out.println(m1);
 	}
 

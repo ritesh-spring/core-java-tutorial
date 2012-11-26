@@ -10,7 +10,7 @@ public class ArrayListEx001 {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		ArrayList<String> list = new ArrayList<>();
+		ArrayList<String> list = new ArrayList<String>();
 		list.add("Ritesh Kumar");
 		list.add("Rakesh");
 		list.add("Amit Kumar");
