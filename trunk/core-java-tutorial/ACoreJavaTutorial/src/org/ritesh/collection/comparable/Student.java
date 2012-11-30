@@ -1,12 +1,12 @@
 package org.ritesh.collection.comparable;
 
-public class Student2 implements Comparable<Object> {
+public class Student implements Comparable<Object> {
 
 	int rollNo;
 	String name;
 	int age;
 
-	public Student2(int rollNo, String name, int age) {
+	public Student(int rollNo, String name, int age) {
 		super();
 		this.rollNo = rollNo;
 		this.name = name;
@@ -16,7 +16,7 @@ public class Student2 implements Comparable<Object> {
 	@Override
 	public int compareTo(Object o) {
 		// TODO Auto-generated method stub
-		Student2 st=(Student2) o;
+		Student st=(Student) o;
 		return name.compareTo(st.name); //In Ascending Order
 		// In Descending Order return (st.name).compareTo(name)
 		}

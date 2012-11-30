@@ -12,15 +12,15 @@ public class DeadLockEx {
 	    	public void run()
 	    	{
 	    		synchronized (rc1) {
-				System.out.println("Thread -1 : Locked resource : 1");	
+				System.out.println("Thread 1 : Locked resource : 1..."+rc1);	
 				try {
-					Thread.sleep(500);
+					Thread.sleep(50000);
 				} catch (InterruptedException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 				synchronized (rc2) {
-					System.out.println("Thread -1 : locked resource : 2");	
+					System.out.println("Thread 1 : locked resource : 2"+rc2);	
 					}
 				}
 	    		
@@ -32,9 +32,9 @@ public class DeadLockEx {
 	    	public void run()
 	    	{
 	    		synchronized (rc2) {
-				System.out.println("Thread 2 : locked resouce : 2");
+				System.out.println("Thread 2 : locked resouce : 2..."+rc2);
 				synchronized (rc1) {
-					System.out.println("Thread 2: Locked resource 1");	
+					System.out.println("Thread 2: Locked resource 1"+rc1);	
 					}
 				}
 	    		
