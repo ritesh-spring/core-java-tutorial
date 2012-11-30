@@ -21,14 +21,14 @@ public class SendMailSSL {
 		{
 					protected PasswordAuthentication getPasswordAuthentication() 
 					{
-						return new PasswordAuthentication("coolsanju1987@gmail.com", "sanjeevrahul");// change
+						return new PasswordAuthentication("project.ejb@gmail.com", "ritesh134");// change
 																		// accordingly
 					}
 				});
 		// compose message
 		try {
 			MimeMessage message = new MimeMessage(session);
-			message.setFrom(new InternetAddress("Sanjeev Kumar<project.ejb@gmail.com>"));// change
+			message.setFrom(new InternetAddress("Ritesh Kumar<project.ejb@gmail.com>"));// change
 																			// accordingly
 			message.addRecipient(Message.RecipientType.TO, new InternetAddress(
 					to));
@@ -38,7 +38,8 @@ public class SendMailSSL {
 			Transport.send(message);
 			System.out.println("message sent successfully");
 		} catch (MessagingException e) {
-			throw new RuntimeException(e);
+			//throw new RuntimeException(e);
+			System.out.println(e);
 		}
 	}
 }
