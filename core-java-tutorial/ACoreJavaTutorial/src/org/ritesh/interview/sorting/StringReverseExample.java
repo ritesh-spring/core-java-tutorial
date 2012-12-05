@@ -1,4 +1,4 @@
-package org.ritesh.interview.string;
+package org.ritesh.interview.sorting;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;

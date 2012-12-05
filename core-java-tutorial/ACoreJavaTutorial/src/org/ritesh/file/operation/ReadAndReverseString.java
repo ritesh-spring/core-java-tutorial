@@ -38,7 +38,7 @@ try {
 //			System.out.println(ch);
 			}
 			fw.write(" ");
-			sb.append("\n");
+			sb.append(" ");
 		}
 		}
 	System.out.println(sb.reverse());
