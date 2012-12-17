@@ -1,6 +1,7 @@
 package org.ritesh.collection;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Iterator;
 
 public class ArrayListEx001 {
@@ -30,7 +31,8 @@ public class ArrayListEx001 {
 			System.out.print(string+",");
 
 		}
-		System.out.println();
+		System.out.println("After Sorting...");
+		Collections.sort(list);
 for (String string : list) {
 	System.out.print(string+",");
 }
