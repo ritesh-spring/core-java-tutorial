@@ -5,13 +5,15 @@ public class MultiplyByIncrementOp {
 	/**
 	 * @param args
 	 */
+	int i;
 	public int multiply(int a, int b) {
+		
 		for (int i = 1; i < b; i++) {
 			for (int j = 1; j <= a; j++) {
-				a++;
+				i=a++;
 			}
 		}
-		return a;
+		return i;
 	}
 
 	public static void main(String[] args) {
