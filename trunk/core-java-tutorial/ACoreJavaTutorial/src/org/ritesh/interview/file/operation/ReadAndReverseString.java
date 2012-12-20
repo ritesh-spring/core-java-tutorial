@@ -44,6 +44,7 @@ try {
 	System.out.println(sb.reverse());
 	br.close();
 	fw.close();
+	fr.close();
 } catch (Exception e) {
 	// TODO Auto-generated catch block
 	e.printStackTrace();
