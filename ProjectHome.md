@@ -1,0 +1,1 @@
+Here, I am presenting basic core java code which is useful for learning and preparing for interview
